@@ -1,0 +1,6 @@
+bin/
+draconity.toml
+plugins/
+talon.log
+w2l/
+*~
