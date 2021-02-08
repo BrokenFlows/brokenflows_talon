@@ -4,3 +4,6 @@ plugins/
 talon.log
 w2l/
 *~
+.sys/
+.venv/
+bin
