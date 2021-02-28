@@ -1,4 +1,6 @@
-bin/
+*bin*
+.DS_Store
+*.swp
 draconity.toml
 plugins/
 talon.log
@@ -6,5 +8,4 @@ w2l/
 *~
 .sys/
 .venv/
-bin.lnk
 recordings/

@@ -1,11 +1,11 @@
 #defines the various mode commands
 mode: all
 -
-welcome back:
+super wake all:
     user.mouse_wake()
     user.history_enable()
     user.talon_mode()
-sleep all:
+super sleep all:
     user.switcher_hide_running()
     user.history_disable()
     user.homophones_hide()
