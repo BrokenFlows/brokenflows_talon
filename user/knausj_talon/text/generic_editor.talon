@@ -143,6 +143,9 @@ clear way down:
 copy all:
     edit.select_all()
     edit.copy()
+
+copy that:
+    edit.copy()
 #to do: do we want these variants, seem to conflict
 # copy left:
 #      edit.extend_left()
