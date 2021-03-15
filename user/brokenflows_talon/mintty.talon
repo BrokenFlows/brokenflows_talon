@@ -15,3 +15,5 @@ action(edit.copy): key(ctrl-insert)
 
 action(edit.delete_line): key(ctrl-u)
 
+capeesh: key(c e)
+
