@@ -8,4 +8,4 @@ w2l/
 *~
 .sys/
 .venv/
-recordings/
+*recordings/
