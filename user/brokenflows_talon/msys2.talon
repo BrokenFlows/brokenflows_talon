@@ -1,10 +1,16 @@
 app: mintty
+app: MSYS2 terminal
+app: Terminal
 -
 tag(): terminal
 tag(): user.file_manager
 tag(): user.generic_terminal
 tag(): user.git
 tag(): user.kubectl
+
+move: 
+	key(m v)
+	key(space)
 
 action(user.file_manager_open_parent):
     insert("cd ..")
