@@ -5,6 +5,6 @@ helpdesk details:
 	insert("Contact: 0862346230\n")
 	insert("Current location(Work from home/office): Work From Home\n")
 	insert("Office location: SJRQ\n")
-	insert("Asset type:Laptop\n")
+	insert("Asset type: Laptop\n")
 	insert("Asset tag: 22619\n")
 
