@@ -1,6 +1,7 @@
 app: mintty
 app: MSYS2 terminal
 app: Terminal
+os: Windows
 -
 tag(): terminal
 tag(): user.file_manager
