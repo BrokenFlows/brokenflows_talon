@@ -8,6 +8,13 @@ tag(): user.generic_wasd
 parrot(shush): user.mouse_drag()
 parrot(shush:stop): user.mouse_drag()
 
+parrot(click_palatal):
+	core.repeat_command(1)
+
+parrot(click_alveolar): user.toggle_recent_mouse()
+
+tog: user.toggle_recent_mouse()
+
 face(pucker_lips_left):
 	user.mouse_scroll_down_continuous()
 face(pucker_lips_left:stop):
