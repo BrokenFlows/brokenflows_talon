@@ -1,5 +1,8 @@
 os:mac
 -
+face wake: mode.enable("face")
+face sleep: mode.disable("face")
+
 face(smile):
 	print('smile start')
 
