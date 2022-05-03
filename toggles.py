@@ -26,9 +26,13 @@ class Actions:
         """Switches between the two mouse modes"""
         if not config.control_mouse:
             eye_zoom_mouse.toggle_zoom_mouse(False)
+            print("disabling zoom mouse")
             toggle_control(True)
+            print("enabling control mouse")
         else:
             toggle_control(False)
+            print("disabling control mouse")
             eye_zoom_mouse.toggle_zoom_mouse(True)
+            print("enabling zoom mouse")
 
 
