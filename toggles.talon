@@ -14,3 +14,6 @@ key(shift-f11):
 toggle (mouse|miss):
 	user.toggle_recent_mouse()
 
+(zoom exit|zoom cancel):
+	tracking.zoom_cancel()
+
